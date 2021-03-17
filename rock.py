@@ -11,7 +11,7 @@ class RockMaker:
 
     def create_rock(self, image = rock_img):
         rand_chance = randint(1, 25)
-        if rand_chance == 1:
+        if rand_chance == 1 or rand_chance == 10:
             if self.reserve_rocks:
                 new_rock = self.reserve_rocks.pop()
             else:

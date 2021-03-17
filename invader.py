@@ -10,11 +10,11 @@ class Invader(Turtle):
         self.showturtle()
 
     def go_right(self):
-        new_x = self.xcor() + 20
+        new_x = self.xcor() + 10
         self.goto(new_x, self.ycor())
 
     def go_left(self):
-        new_x = self.xcor() - 20
+        new_x = self.xcor() - 10
         self.goto(new_x, self.ycor())
 
     def destroy(self):
